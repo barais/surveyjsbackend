@@ -16,6 +16,13 @@ The main features of the surveyjsbackend module are the following:
 - Custom Html Page (I provide an example with [SurveyJS](https://github.com/barais/examSurveyJSFront))
 - Send Email to Student
 
+## Customize the exam
+
+To create your own exam, just create you exam definition file in [exam.js](./exam.js). It is a simple node js to use the [template literal](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/template_strings) . They have many features, variable interpolation among others, but most importantly for this question, they can be multiline. Next run the following command to create the exam definition file:
+
+```bash
+node exam.js > exam.json
+```
 
 # Installation
 
