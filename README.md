@@ -4,8 +4,7 @@ This project provides an infrastructure for saving folder quizz based on [survey
 
 This project is developed using [GoLang](https://golang.org/).
 
-It consists of a [library](https://github.com/barais/ipfilter/) to open the web application based on a set of IP addresses and time range, a [module](https://github.com/barais/surveyjsbackend/) to provide an http service to provide an exam, use CAS for the student authentification and save the result in json. 
-
+It consists of a [library](https://github.com/barais/ipfilter/) to open the web application based on a set of IP addresses and time range, a [module](https://github.com/barais/surveyjsbackend/) to provide an http service to provide an exam, use CAS for the student authentification and save the result in json.
 
 ## Surveyjsbackend
 
@@ -168,6 +167,3 @@ server {
 
 
 An example of HTTP502 is available [here](https://github.com/barais/surveyjsbackend/tree/master/nginxerrorpage)
-
-
-
